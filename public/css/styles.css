@@ -1,0 +1,181 @@
+/*------------------------------------------------FUENTES--------------------------------------------------------*/
+
+@font-face{
+    font-family: 'GMX-Regular';
+    src: url('../fonts/GMX/GMX-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src:url('../fonts/Montserrat/Montserrat-Regular.ttf')
+
+}
+
+/*------------------------------------------------HEADER--------------------------------------------------------*/
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url('../images/background.svg');
+}
+
+.hcontainer {
+    background-color: #666666;
+    color: #FFF;
+}
+
+.logocolors-container {
+    display: flex; /* Usar flexbox para el contenedor principal */
+    align-items: center; /* Centrar verticalmente todos los elementos dentro del contenedor */
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+    height: 100%; /* Asegura que ocupe el alto total del contenedor */
+    
+}
+
+.logosi-text {
+    font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
+    font-weight: bold; /* Negrita */
+    color: #ffffff; /* Ajusta el color del texto */
+    margin: 0; /* Elimina márgenes para un centrado más preciso */
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.oaxaca-text {
+    display: flex; /* Usar flexbox para centrar el texto */
+    justify-content: center; /* Centrar horizontalmente */
+    flex: 1; /* Permitir que este div tome espacio dentro del contenedor */
+}
+
+.oaxaca-text p {
+    margin: 0; /* Eliminar márgenes por defecto del párrafo */
+    font-size: 1.5rem; /* Ajustar el tamaño de la fuente según sea necesario */
+    font-weight: bold; /* Cambiar el peso de la fuente si es necesario */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+.logo-si {
+    width: 48px;
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+    margin-bottom: auto;
+}
+
+.logoheader-gob {
+    width: 50px;
+    height: 50px;
+    margin-left: auto; /* Empuja el logo hacia la derecha */
+}
+
+.vertical-line {
+    border-left: 2px solid #ffffff;
+    height: 50px;
+    margin: 0 1px; /* Espacio a los lados de la línea */
+    margin-left: 3px;
+}
+
+.text-honestidad {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 4px;
+}
+
+.honestidad-text {
+    font-size: 1rem;
+    font-family: 'GMX-Regular', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+.honestidadsub-text {
+    font-size: 0.8rem;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
+/*------------------------------------------------BARRA GRECA--------------------------------------------------------*/
+
+.img-barragreca {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    background: center;
+    opacity: .9;
+}
+
+/*------------------------------------------------BODY----------------------------------------------------------*/
+
+
+
+/*------------------------------------------------FOOTER--------------------------------------------------------*/
+
+/*CONTENEDOR PRINCIPAL DEL FOOTER*/
+div.fcontainer {
+    background-color: #000;
+    color: #FFF;
+    overflow: hidden;
+}
+
+/*BOTONES DE HIPERVÍNCULOS A REDES SOCIALES*/
+.btn-iconrs {
+    border: none;
+    background-color: #B17F4A;
+    border-color: #B17F4A;
+    color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/*LOGO BLANCO - GOBIERNO DEL ESTADO - FOOTER*/
+.img-iconwhite {
+    width: 48px; /* Ajustar el tamaño de la imagen */
+    height: auto;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.logowhite-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 15px;
+}
+
+.textwhite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.oaxaca-text {
+    text-align: center;
+    font-size: calc(1vw + 1rem); /* Tamaño dinámico */
+    font-family: 'GMX-Regular', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+}
+
+.gobierno-text {
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+    line-height: 1px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #ffffff; /* Cambia el color del enlace a blanco */
+}
