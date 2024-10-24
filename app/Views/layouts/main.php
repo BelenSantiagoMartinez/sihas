@@ -13,20 +13,20 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid hcontainer p-2">
+        <div class="container-fluid header-container p-2">
             <div class="row">
                  <div class="col-md-4">
                  </div>
-                 <div class="col-md-4 logocolors-container">
-                    <img src="images/logo_sihas_header.png" class="logo-si" alt="Logo SI">
-                    <div class="logosi-text">
+                 <div class="col-md-4 logogob-colores-container">
+                    <img src="images/logo_sihas_header.png" class="logo-sihas-img" alt="Logo SI">
+                    <div class="logo-sihas-text">
                         <p>SIHAS</p>
                     </div>
                 </div>
-                <div class="col-md-4 logocolors-container">
-                    <img src="images/logo_colores_gob_header.png" class="logoheader-gob" alt="Honestidad Logo">
+                <div class="col-md-4 logogob-colores-container">
+                    <img src="images/logo_colores_gob_header.png" class="logogob-coloresimg-header" alt="Honestidad Logo">
                     <div class="vertical-line"></div>
-                    <div class="text-honestidad">
+                    <div class="textlogo-header-honestidad">
                         <a href="https://www.oaxaca.gob.mx/honestidad/" target="_blank" class="no-underline honestidad-text">HONESTIDAD</a>
                         <div class="honestidadsub-text">
                             <a href="https://www.oaxaca.gob.mx/honestidad/" target="_blank" class="no-underline">SECRETARÍA DE HONESTIDAD,</a><br>
@@ -36,9 +36,9 @@
                 </div>
             </div>
         </div>
-        <div class="row col" style="left: 0px; right: 0px; top: 0px; padding: 0px;">
+        <div class="row col" style="padding: 0px;">
             <img src="images/barra_greca.svg" alt="" class="img-fluid img-barragreca"> 
-        </div>        
+        </div> 
     </header>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>          
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>          
@@ -47,7 +47,7 @@
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     <footer>
-        <div class="container-fluid fcontainer p-2">
+        <div class="container-fluid footer-container p-2">
             <div class="row text-center p-2">
                 <div class = "col-md-3">
                     <a href="https://www.oaxaca.gob.mx/" target="_self"><img src="images/animation_footer.gif" class="img-icon p-0 m-0 me-3"></a>
@@ -64,9 +64,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 logowhite-container">
-                    <a href="https://www.oaxaca.gob.mx/" target="_blank"><img src="images/logo_blanco_gob_footer.png" class="img-iconwhite" alt="Gobierno del Estado de Oaxaca"></a>
-                    <div class="textwhite-container">
+                <div class="col-md-3 logogob-blanco-container">
+                    <a href="https://www.oaxaca.gob.mx/" target="_blank"><img src="images/logo_blanco_gob_footer.png" class="img-logogob-blanco" alt="Gobierno del Estado de Oaxaca"></a>
+                    <div class="textgob-blanco-container">
                         <a href="https://www.oaxaca.gob.mx/" target="_blank" class="no-underline oaxaca-text">OAXACA</a>
                         <a href="https://www.oaxaca.gob.mx/" target="_blank" class="no-underline gobierno-text">GOBIERNO DEL ESTADO</a>
                     </div>

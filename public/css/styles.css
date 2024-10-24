@@ -14,17 +14,21 @@
 /*------------------------------------------------HEADER--------------------------------------------------------*/
 
 html,body{
+    margin: 0;
+    padding: 0;
     width: 100%;
     overflow-x: hidden;
     background-image: url('../images/background.svg');
 }
 
-.hcontainer {
+
+
+.header-container {
     background-color: #666666;
     color: #FFF;
 }
 
-.logocolors-container {
+.logogob-colores-container {
     display: flex; /* Usar flexbox para el contenedor principal */
     align-items: center; /* Centrar verticalmente todos los elementos dentro del contenedor */
     justify-content: center; /* Centrar horizontalmente */
@@ -33,7 +37,7 @@ html,body{
     
 }
 
-.logosi-text {
+.logo-sihas-text {
     font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
     font-weight: bold; /* Negrita */
     color: #ffffff; /* Ajusta el color del texto */
@@ -42,28 +46,14 @@ html,body{
     margin-bottom: auto;
 }
 
-.oaxaca-text {
-    display: flex; /* Usar flexbox para centrar el texto */
-    justify-content: center; /* Centrar horizontalmente */
-    flex: 1; /* Permitir que este div tome espacio dentro del contenedor */
-}
-
-.oaxaca-text p {
-    margin: 0; /* Eliminar márgenes por defecto del párrafo */
-    font-size: 1.5rem; /* Ajustar el tamaño de la fuente según sea necesario */
-    font-weight: bold; /* Cambiar el peso de la fuente si es necesario */
-    color: #ffffff; /* Color del texto */
-    text-align: center; /* Alinear el texto al centro */
-}
-
-.logo-si {
+.logo-sihas-img {
     width: 48px;
     height: auto;
     margin-right: 10px; /* Espacio entre el logo y el texto */
     margin-bottom: auto;
 }
 
-.logoheader-gob {
+.logogob-coloresimg-header {
     width: 50px;
     height: 50px;
     margin-left: auto; /* Empuja el logo hacia la derecha */
@@ -76,7 +66,7 @@ html,body{
     margin-left: 3px;
 }
 
-.text-honestidad {
+.textlogo-header-honestidad {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -99,7 +89,6 @@ html,body{
     line-height: 1.2;
 }
 
-
 /*------------------------------------------------BARRA GRECA--------------------------------------------------------*/
 
 .img-barragreca {
@@ -117,13 +106,15 @@ html,body{
 /*------------------------------------------------FOOTER--------------------------------------------------------*/
 
 /*CONTENEDOR PRINCIPAL DEL FOOTER*/
-div.fcontainer {
+
+.footer-container {
     background-color: #000;
     color: #FFF;
     overflow: hidden;
 }
 
 /*BOTONES DE HIPERVÍNCULOS A REDES SOCIALES*/
+
 .btn-iconrs {
     border: none;
     background-color: #B17F4A;
@@ -136,21 +127,22 @@ div.fcontainer {
 }
 
 /*LOGO BLANCO - GOBIERNO DEL ESTADO - FOOTER*/
-.img-iconwhite {
+
+.img-logogob-blanco {
     width: 48px; /* Ajustar el tamaño de la imagen */
     height: auto;
     margin-right: 7px;
     margin-top: 7px;
 }
 
-.logowhite-container {
+.logogob-blanco-container {
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     margin-bottom: 15px;
 }
 
-.textwhite-container {
+.textgob-blanco-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
