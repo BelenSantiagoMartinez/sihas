@@ -8,4 +8,12 @@ class Home extends BaseController
     {
         return view('layouts/main.php');
     }
+    public function login()
+    {
+        return view('login/login');
+    }
+    public function register_admin()
+    {
+        return view('register_admin/register_admin');
+    }
 }

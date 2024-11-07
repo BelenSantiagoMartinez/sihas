@@ -11,17 +11,16 @@
 
 }
 
+/*-------------------------------------------------------------MASTER PAGE---------------------------------------------------------------------*/
+
 /*------------------------------------------------HEADER--------------------------------------------------------*/
 
 html,body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden;
+    /* overflow: hidden; */
     background-image: url('../images/background.svg');
 }
-
-
 
 .header-container {
     background-color: #666666;
@@ -44,13 +43,15 @@ html,body{
     margin: 0; /* Elimina márgenes para un centrado más preciso */
     margin-top: 10px;
     margin-bottom: auto;
+    align-items: center;
 }
 
 .logo-sihas-img {
     width: 48px;
     height: auto;
-    margin-right: 10px; /* Espacio entre el logo y el texto */
-    margin-bottom: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+    margin-top: 3px;
+    align-items: center;
 }
 
 .logogob-coloresimg-header {
@@ -89,7 +90,7 @@ html,body{
     line-height: 1.2;
 }
 
-/*------------------------------------------------BARRA GRECA--------------------------------------------------------*/
+/*------------------------------------------------BARRA GRECA----------------------------------------------------*/
 
 .img-barragreca {
     width: 100%;
@@ -98,10 +99,6 @@ html,body{
     background: center;
     opacity: .9;
 }
-
-/*------------------------------------------------BODY----------------------------------------------------------*/
-
-
 
 /*------------------------------------------------FOOTER--------------------------------------------------------*/
 
@@ -171,3 +168,193 @@ html,body{
     text-decoration: none;
     color: #ffffff; /* Cambia el color del enlace a blanco */
 }
+
+
+/*-------------------------------------------------------------LOGIN---------------------------------------------------------------------*/
+
+/* Contenedor principal del login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 63vh; /* Ajusta el valor de altura del contenedor principal del login */
+}
+
+/* Contenedor del contenido de login (incluye el área del logo y el formulario) */
+.login-content {
+    background-color: #ffffff; /* Fondo blanco para el contenido del login */
+    padding: 40px; /* Espacio alrededor del contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de elevación */
+    max-width: 850px; /* Máximo ancho del contenedor */
+    display: flex;
+    gap: 40px; /* Espacio entre el área de logo y el formulario */
+}
+
+/* Área izquierda del login (Logo e información de Honestidad) */
+.login-left {
+    flex: 1; /*Asegura que ambas secciones ocupen un espacio igual dentro de login-content*/
+    text-align: center;
+    padding-right: 40px; /* Espacio a la derecha para separar del formulario */
+}
+
+.logo-gob {
+    width: 90px; /* Tamaño del logo de Honestidad */
+    margin-top: 40px; /* Margen superior para separación */
+}
+
+.login-text-honestidad {
+    font-family: 'GMX-Regular', sans-serif;
+    font-weight: bold;
+    color: #8e2740; /* Color personalizado para el texto */
+    margin-top: 10px;
+}
+
+.login-subtext-honestidad {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: lighter;
+    color: #B28D5C; /* Color personalizado para el subtítulo */
+    margin-top: 10px;
+}
+
+/* Área derecha del login (Formulario de inicio de sesión) */
+.login-right {
+    flex: 1; /*Asegura que ambas secciones ocupen un espacio igual dentro de login-content*/
+    padding-left: 40px; /* Espacio a la izquierda para separar del logo */
+}
+
+/* Contenedor para el logo y el texto "SIHAS" en el formulario */
+.logo-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el logo y el texto */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 8px; /* Espacio entre el logo y el texto */
+}
+
+.logo-sihas {
+    width: 40px; /* Tamaño del logo de SIHAS */
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.login-sihas-text {
+    font-size: 1.5em; /* Tamaño de la fuente del texto SIHAS */
+    font-weight: bold;
+    color: #666666;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/* Estilos para las etiquetas de credenciales */
+.credenciales-login {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: lighter;
+    color: #000000; /* Color para las etiquetas de credenciales */
+}
+
+/* Estilos para los íconos de entrada */
+.input-group-text {
+    background-color: #8e2740; /* Fondo personalizado para los íconos */
+    color: #ffffff; /* Color del icono */
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    border-left: none; /* Elimina el borde izquierdo del campo de entrada */
+    box-shadow: none; /* Elimina la sombra para un aspecto plano */
+}
+
+/* Estilos personalizados para el botón de inicio de sesión */
+.btn-primary {
+    background-color: #8e2740; /* Color de fondo del botón */
+    border-color: #8e2740; /* Color de borde */
+    font-weight: normal;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #6e1f31; /* Color del botón al pasar el ratón por encima */
+    border-color: #6e1f31;
+}
+
+/* Responsivo: Adaptación a pantallas más pequeñas */
+@media (max-width: 768px) {
+    .login-content {
+        flex-direction: column;
+        padding: 20px;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .login-left {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .login-right {
+        padding-left: 0;
+    }
+}
+
+
+/*-------------------------------------------------------------REGISTRAR ADMINISTRADOR---------------------------------------------------------------------*/
+
+.regadmin-content {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 10px; /* Reduce el padding */
+    margin: 10px 0; /* Reduce el margen superior e inferior */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #6d6d6d;
+}
+
+.form-control {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.btn-guardar, .btn-cancelar {
+    font-weight: 600;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+/* Estilos específicos para el botón guardar */
+.btn-guardar {
+    background-color: #5183C3; /* Color de fondo azul */
+    color: #ffffff; /* Texto blanco */
+    border: none; /* Quita el borde por defecto */
+}
+
+.btn-guardar:hover {
+    background-color: #5379a4; /* Color de fondo al pasar el cursor */
+    color: #ffffff; /* Color de texto al pasar el cursor */
+}
+
+/* Estilos específicos para el botón cancelar */
+.btn-cancelar {
+    background-color: #800020; /* Color de fondo guinda */
+    color: white; /* Texto blanco */
+    border: none; /* Quita el borde por defecto */
+}
+
+
+
+
